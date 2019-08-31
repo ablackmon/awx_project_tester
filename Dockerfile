@@ -8,6 +8,6 @@ RUN mkdir -p /home/tester/
 
 WORKDIR /home/tester
 
-RUN chown -R flask:flaskgroup /home/tester
+RUN chown -R tester:testergroup /home/tester
 
 USER tester
